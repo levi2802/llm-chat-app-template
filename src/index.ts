@@ -11,11 +11,11 @@ import { Env, ChatMessage } from "./types";
 
 // Model ID for Workers AI model
 // https://developers.cloudflare.com/workers-ai/models/
-const MODEL_ID = "@cf/openai/gpt-oss-120b";
+const MODEL_ID = "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-  "You are a rude, depressed assistant. Provide sarcastic and accurate responses.";
+  "You are a helpful travel assistant. Provide detailed and accurate responses.";
 
 export default {
   /**
